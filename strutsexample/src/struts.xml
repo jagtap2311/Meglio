@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<package name="login" extends="struts-default">
+	
+		<action name="signup" class="com.action.SignUp">
+			<result name="success">/index.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		
+		<action name="signin" class="com.action.SignIn">
+			<result name="success">/myprofile.jsp</result>
+			<result name="error">/index.jsp</result>
+		</action>
+		
+		<action name="deleteac" class="com.action.Delete">
+			<result name="success">/deletesuccess.jsp</result>
+			<result name="error">/delete.jsp</result>
+		</action>
+		
+		<action name="logout" class="com.action.logout">
+			<result name="success">/index.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		
+		<action name="changepassword" class="com.action.ChangePass">
+			<result name="success">/changepwd.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		
+		<action name="delete1">
+			<result name="success">/delete.jsp</result>
+		</action>
+		
+		<action name="edit1">
+			<result name="success">/edit.jsp</result>
+		</action>
+		
+		<action name="changepwd1">
+			<result name="success">/changepwd.jsp</result>
+			
+		</action>
+		
+		
+			<action name="myprofile1">
+			<result name="success">/myprofile.jsp</result>
+		</action>
+		
+		<action name="index">
+			<result name="success">/index.jsp</result>
+		</action>
+		
+			
+		<action name="verifyregister" class="com.action.ConfirmRegister">
+			<result name="success">/Process.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		
+		<action name="forgotpass" class="com.action.ForgotPass">
+		<result name="success">/change.jsp</result>
+		<result name="error">/error.jsp</result>
+		</action>
+		
+		<action name="test" class="com.action.AjaxTestBean">
+		<result name="success">/error2.jsp</result>
+		<result name="error">/usererror.jsp</result>
+		</action>
+	</package>
+</struts>

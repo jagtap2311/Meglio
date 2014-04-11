@@ -1,0 +1,635 @@
+.textbox
+{
+
+width: 213px;
+height: 35px;
+border-radius:3px ;
+border: 1px solid #bfbfbf;
+outline: none;
+margin: 4px 0 4px 12px;
+}
+.widthlarge
+{
+	width: 345px;
+}
+.textarea
+{
+
+
+border-radius:3px ;
+border: 1px solid #bfbfbf;
+outline: none;
+margin: 4px 0 4px 12px;
+}
+#form1  label.error {
+      
+    display: inline-block;
+    margin: 2px 0 2px 9px;
+    padding: 0;
+   
+    width: 220px;
+    border:2px solid #bfbfbf;
+     background-color: #f6b83f;
+     color: black;
+      text-align: center;
+    border-radius:3px;
+    opacity:0.9;
+    font-family: "verdana";
+font-size: 13px;
+font-weight: 650;
+}
+
+
+
+
+#form2  label.error {
+    
+    display: inline-block;
+    margin: 2px 0 2px 36px;
+    padding: 0;
+     
+     background-color: #f6b83f;
+     color: black;
+    width: 220px;
+    border:2px solid #bfbfbf;
+       text-align: center;
+    border-radius:3px;
+    opacity:0.9;
+    font-family: "verdana";
+font-size: 13px;
+font-weight: 650;
+  
+   
+}
+#form3  label.error {
+    
+    display: inline-block;
+    margin: 2px 0 2px 35px;
+    padding: 0;
+        text-align: center;
+     background-color: #f6b83f;
+     color: black;
+    width: 220px;
+    border:2px solid #bfbfbf;
+    
+    border-radius:3px;
+    opacity:0.9;
+    font-family: "verdana";
+font-size: 13px;
+font-weight: 650;
+}
+
+
+
+#changepwd  label.error {
+       
+    display: inline-block;
+    margin: 2px 0 2px 9px;
+    padding: 0;
+     border:2px solid #bfbfbf;
+     background-color: #f6b83f;
+     color: black;
+    width: 220px;
+      text-align: center;
+    
+    border-radius:3px;
+    opacity:0.9;
+    font-family: "verdana";
+font-size: 13px;
+font-weight: 650;
+}
+#delete  label.error {
+   
+    display: inline-block;
+    margin: 2px 0 2px 9px;
+    padding: 0;
+     border:2px solid #bfbfbf;
+     background-color: #f6b83f;
+     color: black;
+    width: 220px;
+      text-align: center;
+     
+    border-radius:3px;
+    opacity:0.9;
+    font-family: "verdana";
+font-size: 13px;
+font-weight: 650;
+}
+
+#messagecmnt  label.error {
+    
+    display: inline-block;
+    margin: 2px 0 2px 70px;
+    padding: 0;
+      border:2px solid #bfbfbf;
+     background-color: #f6b83f;
+     color: black;
+    width: 220px;
+       text-align: center;
+     
+    border-radius:3px;
+    opacity:0.9;
+    font-family: "verdana";
+font-size: 13px;
+font-weight: 650;
+}
+
+#edit  label.error {
+    
+    display: inline-block;
+    margin: 2px 0 2px 9px;
+    padding: 0;
+      border:2px solid #bfbfbf;
+     background-color: #f6b83f;
+     color: black;
+    width: 220px;
+      text-align: center;
+    
+    border-radius:3px;
+    opacity:0.9;
+    font-family: "verdana";
+font-size: 13px;
+font-weight: 650;
+}
+
+#back
+{
+color: #007EE5;
+text-decoration: none;
+}
+
+#back:HOVER
+{
+color: #007EE5;
+text-decoration: underline;
+}
+.button
+{
+width: 105px;
+height: 35px;
+
+border: 1px solid #0C6EBE;
+color: white;
+background: #007EE5;
+border-radius:3px;
+text-align: center;
+cursor: pointer;
+overflow: visible;
+font-family: "verdana";
+font-size: 13px;
+font-weight: 650;
+float: left;
+margin-top: 3px;
+}
+
+.login {
+	float: left;
+	
+}
+
+.reset {
+	float: right;
+	
+}
+
+.reset1 {
+	
+	margin-right: 33px;
+	
+}
+.reset2 {
+	
+	margin-right: 50px;
+	
+}
+.side {
+	
+	margin-left:6px;
+	
+}
+.login1 {
+	
+	margin-left:37px;
+	
+}
+.rst
+{
+	margin-left: 3px;
+}
+.lgt
+{
+	margin-right: 3px;
+	margin-left: 12px;
+}
+.label
+{
+	font-size: 13px;
+	font-family: "verdana";
+	
+}
+.label1
+{
+	font-size: 15px;
+	font-family: "verdana";
+	text-align: left;
+	margin-bottom: 5px;
+	
+	
+}
+
+.label a
+{
+	text-decoration: none;
+
+}
+.label a:HOVER
+{
+	text-decoration: underline;
+	
+}
+
+.dept
+{
+width: 220px;
+height: 45px;
+margin-top: 4px;
+}
+#mainpage
+{
+width: 1340px;
+height: 1315px;
+
+
+}
+#close
+{
+	height: 25px;
+	width: 25px;
+	float: right;
+	margin-top: -8px;
+	margin-right: 4px;
+}
+#slider
+{
+	width:750px;
+	height:625px;
+	float: left;
+	
+}
+.sliderdiv1
+{
+width:200px;
+height:200px;
+position:relative;
+animation:mymove 5s infinite;
+animation-timing-function:linear;
+ float:left;
+-webkit-animation:mymove 5s infinite;
+-webkit-animation-timing-function:linear;
+ margin-right :8px;
+z-index:-1;
+ border: 0px solid black;
+}
+
+@keyframes mymove
+{
+from {left:0px;}
+to {left:300px;}
+}
+
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+from {left:0px;}
+to {left:300px;}
+}
+
+
+
+#menu
+{
+	width:387px;
+	height: 625px;
+	float: left;
+	
+	
+}
+#fmenu
+{
+	background-color: black;
+}
+#fmenu:HOVER
+{
+	background-color: #0b84e0;
+}
+#tmenu
+{
+	background-color:black;
+}
+#tmenu:HOVER
+{
+	background-color: #0b84e0;
+}
+#lmenu
+{
+	background-color:black;
+}
+#lmenu:HOVER
+{
+	background-color: #0b84e0;
+}
+#gmenu
+{
+	background-color: black;
+}
+#gmenu:HOVER
+{
+	background-color: #0b84e0;
+}
+#socialnet
+{
+	width:142px;
+	height: 31px;
+	
+float: right;
+}
+#mysignin
+{
+	
+	height:1320px;
+	width: 100%;
+	background-color:#0b84e0;
+	display:none;
+	position: absolute;
+	opacity:0.5;
+	
+}
+#signindiv
+{
+height:308px;
+width: 308px;
+background-color:white;
+opacity:1;
+filter:alpha(opacity=100);
+border-radius:3px;
+border:1px solid green;
+display: none;
+position: fixed;
+z-index: 1;
+top:190px;
+left:435px;
+}
+.tcenter
+{
+	margin-left: 40px;
+}
+#forgot
+{
+height:220px;
+width: 290px;
+background-color:white;
+opacity:1;
+filter:alpha(opacity=100);
+border-radius:3px;
+border:1px solid green;
+display: none;
+position: fixed;
+z-index: 1;
+top:190px;
+left:450px;
+}
+
+
+
+#form1
+{
+	display: none;
+}
+#hrid
+{
+	margin-top: 2px;
+}
+.arw
+{
+height:50px;
+width: 1200px;
+/*border: 1px solid black;*/
+clear: both;
+}
+.brw
+{
+height:50px;
+width: 1200px;
+/*border: 1px solid black;*/
+clear: both;
+}
+#moremenu
+{
+height:538px;
+width: 1340px;
+
+clear: both;
+}
+#moreabt
+{
+	height:628px;
+width: 1340px;
+
+
+}
+#logo
+{
+	margin-left: 15px;
+}
+#container
+{
+height:625px;
+width: 240px;
+
+}
+.changepwddiv
+{
+	height:250px;
+	width:240px;
+}
+
+#logindiv
+{
+height:258px;
+width: 290px;
+background-color:white;
+opacity:1;
+filter:alpha(opacity=100);
+border-radius:3px;
+border:1px solid silver;
+position: fixed;
+z-index: 1;
+top:200px;
+left:550px;
+}
+#forgotpwd
+{
+height:200px;
+width: 290px;
+background-color:white;
+opacity:1;
+filter:alpha(opacity=100);
+border-radius:3px;
+border:1px solid silver;
+position: fixed;
+z-index: 1;
+top:200px;
+left:550px;
+}
+#mainmenu
+{
+	width: 660px;
+	height: 70px;
+	background-color:#007EE5;
+	border-radius:5px ;
+	border: 1px solid #bfbfbf;
+	opacity:0.8;
+	margin-left: 375px;
+}
+
+#mainmenu ul li {
+	float: left;
+	list-style: none;
+	margin: 10px;
+	color: white;
+	font-family: "verdana";
+	font-size: 16px;
+	font-weight: 650;
+}
+#mainmenu ul li a{
+	text-decoration: none;
+ color: white;
+}
+#mainmenu ul li a:HOVER{
+	text-decoration:underline;
+color: aqua;
+}
+#homemsg
+{
+	height: auto;
+	width:900px;
+	border: 1px solid silver;
+	overflow: scroll;
+	color: black;
+	font-family: "verdana";
+	font-size: 16px;
+	font-weight: 650;
+	float: left;
+}
+#detail
+{
+	height:110px;
+	width:443px;
+	border: 1px solid silver;
+	float: left;
+	position: fixed;
+	left: 910px;
+}
+#messagebox
+{
+height:530px;
+width:400px;
+border: 1px solid green;
+display: none;
+position: fixed;
+z-index: 1;
+top:110px;
+left:450px;
+background-color:white;
+opacity:1;
+filter:alpha(opacity=100);
+border-radius:3px;
+
+}
+#hometransdiv
+{
+	width: 100%;
+	height: 100%;
+	background-color:#0b84e0;
+	display:none;
+	position: absolute;
+	opacity:0.5;
+	
+
+	
+}
+.lalign
+{
+	margin-left: 12px;
+}
+.lalign1
+{
+	margin-left: 6px;
+}
+.aboutus
+{
+height: 167px;
+width:1339px;
+
+}
+.cntus
+{
+height: 238px;
+width:1339px;
+
+
+}
+
+
+#abtustext
+{
+height:153px;
+width:1085px;
+float: left;
+border-radius:3px ;
+border: 1px solid #bfbfbf;
+outline: none;
+padding:5px;
+}
+#abtusimg
+{
+height:153px;
+width:153px;
+
+float: left;
+}
+
+#cntustext
+{
+height:153px;
+width:1085px;
+float: left;
+border-radius:3px ;
+border: 1px solid #bfbfbf;
+outline: none;
+padding: 5px;
+}
+#cntusimg
+{
+height:153px;
+width:153px;
+
+float: left;
+}
+
+.mycontent
+{
+	 font-family: "verdana";
+font-size: 16px;
+font-weight: 680;
+
+}
+#heading
+{
+	position: absolute;
+	margin-left:3px;
+	margin-top: 3px;
+	
+font-family: monospace;
+font-size: 19px;
+font-weight: 500;
+}
